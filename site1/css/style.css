@@ -24,3 +24,24 @@ a{
     text-align: right;
     
 }
+.left-content-1{
+    font-size: 100px;
+    padding: 20px 0;
+}
+.left-content-2{
+    font-size: 25px;
+    padding: 10px 0;
+}
+.left-content-3{
+    width: 300px;
+    padding: 10px 0;
+   
+}
+.left-content-4{
+    padding: 10px 0 0 15px;
+    font-size: 25px;
+}
+
+.left-content-5{
+    font-size: 20px;
+}

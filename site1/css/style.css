@@ -1,0 +1,26 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(https://fonts.google.com/specimen/Montserrat);
+}
+body{
+    margin: 100px;
+}
+a{
+    text-decoration: none;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+}
+.logo{
+    width: 30%;
+}
+.nav-item{
+    padding: 10px;
+    margin: 0 50px;
+}
+.nav-items{
+    width: 70%;
+    text-align: right;
+    
+}

@@ -6,7 +6,7 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 body {
-  margin-left: 50px;
+  margin-left: 120px;
   background-color: #1c143f;
   color: white;
   margin-top: 0;
@@ -47,6 +47,7 @@ a {
   flex-direction: row;
   float: right;
   margin-right: 100px;
+  
 }
 .left-content-1 {
   font-size: 70px;

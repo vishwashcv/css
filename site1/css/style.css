@@ -66,9 +66,24 @@ a {
   font-size: 20px;
 }
 .left-content-6 {
-  border-radius: 50px; /*1*/
-  background: linear-gradient(45deg, #46c8f5, #1c143f) border-box;
-  padding: 5px 25px;
-  margin-left: 60px;
-  width: 65px;
+    background: linear-gradient(to right, #05FBFF,#0e69d1);
+    border-radius: 50px;
+    color: #122dff;
+    display: inline-block;
+  font-size: 20px;
+ 
+  text-decoration: none;
+  padding: 5px 35px;
+  margin-left: 30px;
+  width: 95px;
+}
+
+.left-content-6 a {
+  background: #1c143f;
+  display: block;
+  padding: 10px 40px;
+  border-radius: 50px;
+  align-items: center;
+  float: left;
+  margin-left: -25px;
 }

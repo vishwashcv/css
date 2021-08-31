@@ -6,6 +6,8 @@ body {
   background-color: #1c143f;
   color: white;
   margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
 }
 a {
   text-decoration: none;
@@ -34,7 +36,7 @@ a {
   height: 70px;
   width: 200%;
   top: 0;
-  background: #46c8f5;
+  background: linear-gradient(45deg, #46c8f5, #04b0ff) border-box;
   border-bottom-left-radius: 100%;
   padding-top: 40px;
 }

@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("bg.jpg");
+    font-family: 'Roboto Condensed', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.right-logo{
+    float: right;
+}
+
+
+.burger{
+    margin-top: -530px;
+    margin-left: 150px;
+    margin-right: 0px;
+
+}
+.nav-items{
+    float: right;
+    margin-top: 100px;
+    margin-right: -370px;
+}
+.nav-items a {
+    text-decoration: none;
+    color: #3d2514;
+    font-size: 25px;
+    padding: 0 10px;
+    font-weight: bold;
+}
+h1{
+    padding: 0%;
+    margin-top: 00px;
+    margin-left: 100px;
+    font-weight: bold;
+}
+
+
+@media only screen and (max-width: 1100px){
+    
+    .burger-text{
+        width: 400px;
+    }
+    .nav-items{
+        float: left;
+        margin-top: 120px;
+        width:300px;
+    }
+}
+@media only screen and (max-width: 765px){
+    .nav-items{
+        margin-top: 0px;
+        float: left;
+    }
+
+    .right-logo{
+        display: none;
+        width: 300px;
+        
+    }
+}
+
+@media only screen and (max-width: 738px){
+    .nav-items{
+        margin-top: 100px;
+        float: left;
+    }
+
+    .right-logo{
+        display: none;
+        width: 300px;
+        
+    }
+}
+@media only screen and (max-width: 600px){
+    .nav-items{
+        margin-top: 100px;
+        float: left;
+    }
+
+    .right-logo{
+        display: none;
+        width: 300px;
+        
+    }
+}
+@media only screen and (max-width: 320px){
+    .nav-items{
+        margin-top: -40px;
+        float: left;
+    }
+
+    .nav-items a {
+    font-size: 15px;
+    margin-left: 5px;  
+    }
+
+    .right-logo{
+        display: inline-block;
+        
+    }
+    .burger-text{
+        width: 240px;
+    }
+}
+
+@media only screen and (max-width: 280px){
+    .nav-items{
+        margin-top: -30px;
+        float: left;
+    }
+    .logo{
+        width: 200px
+    }
+    .nav-items a {
+        font-size: 10px;
+        margin-left: 5px;  
+        }
+
+    .right-logo{
+        display: inline-block;
+        width: 200px;
+    }
+    .burger-text{
+        width: 200px;
+    }
+}
+
+
